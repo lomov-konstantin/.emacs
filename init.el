@@ -39,7 +39,7 @@ GNU Emacs configuration file
 (blink-cursor-mode -1) ;; курсор не мигает
 (column-number-mode)
 (fset 'yes-or-no-p 'y-or-n-p);; Short messages
-(windmove-default-keybindings(windmove-default-keybindings);; Навигация по окнам клавишами Shift-<стрелка>
+(windmove-default-keybindings);; Навигация по окнам клавишами Shift-<стрелка>
 (ido-mode)
 
 (provide 'init)
