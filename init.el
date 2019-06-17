@@ -1,5 +1,3 @@
-;; GNU Emacs configuration file
-
 ;; Show-paren-mode settings
 (show-paren-mode t) ;; включить выделение выражений между {},[],()
 (setq show-paren-style 'expression) ;; выделить цветом выражения между {},[],()
@@ -20,9 +18,8 @@
 (display-time-mode             t) ;; показывать часы в mode-line
 (size-indication-mode          t) ;; размер файла в %-ах
 
-;; Start window size
-(when (window-system)
-    (set-frame-size (selected-frame) 150 50))
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
 (load-theme 'deeper-blue)
 (setq frame-title-format "Emacs")
