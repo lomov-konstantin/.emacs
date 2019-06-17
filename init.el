@@ -1,4 +1,4 @@
-GNU Emacs configuration file
+;; GNU Emacs configuration file
 
 ;; Show-paren-mode settings
 (show-paren-mode t) ;; включить выделение выражений между {},[],()
