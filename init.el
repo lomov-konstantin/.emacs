@@ -18,6 +18,7 @@
 (display-time-mode             t) ;; показывать часы в mode-line
 (size-indication-mode          t) ;; размер файла в %-ах
 
+;;Starting in fullscreen mode
 (custom-set-variables
  '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
